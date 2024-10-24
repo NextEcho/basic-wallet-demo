@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Basic Web3 Wallet Demo
+
+This project is a basic demonstration of implementing wallet connection functionality using Next.js and popular Web3 libraries. It serves as a practice ground for using wagmi and rainbow-kit tools.
+
+## Tech Stack
+
+- Next.js
+- TypeScript
+- wagmi
+- RainbowKit
+- ethers.js (optional, for advanced operations)
+- Tailwind CSS (for styling)
+
+## Project Goals
+
+- Implement basic wallet connection
+- Display account information
+- Perform simple blockchain interactions
+
+## Implementation Roadmap
+
+1. Set up Next.js project with TypeScript
+2. Configure wagmi and RainbowKit
+3. Create a wallet connection component
+4. Display connected account information
+5. Implement network switching functionality
+6. Add basic transaction sending capability
+7. Implement error handling and loading states
+8. Style the interface using Tailwind CSS
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository
+2. Install dependencies: `pnpm install`
+3. Run the development server: `pnpm dev`
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Key Concepts to Explore
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- React hooks provided by wagmi
+- RainbowKit's customization options
+- Handling different network environments
+- Managing wallet states and user sessions
+- Interacting with smart contracts (basic level)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Best Practices
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Implement proper error handling
+- Use TypeScript for type safety
+- Follow Next.js best practices for routing and API routes
+- Ensure responsive design for various devices
 
-## Learn More
+## Future Enhancements
 
-To learn more about Next.js, take a look at the following resources:
+- Add more complex blockchain interactions
+- Implement token balance display
+- Create a simple DApp functionality (e.g., token transfer)
+- Explore advanced wagmi features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Resources
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [wagmi Documentation](https://wagmi.sh/)
+- [RainbowKit Documentation](https://www.rainbowkit.com/docs/introduction)
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Ethereum Developer Documentation](https://ethereum.org/en/developers/)
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is for learning purposes. Feel free to fork and extend it for your own learning journey.
