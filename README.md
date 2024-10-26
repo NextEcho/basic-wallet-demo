@@ -21,7 +21,7 @@
 1. 克隆仓库：
 
     ```
-    git clone https://github.com/your-username/basic-wallet-demo.git
+    git clone https://github.com/NextEcho/basic-wallet-demo.git
     cd basic-wallet-demo
     ```
 
@@ -40,6 +40,8 @@
     ```
 
     可以在 [WalletConnect Cloud](https://cloud.walletconnect.com/) 获取项目 ID。
+
+    > 当然如果只是想尝试连接钱包，这部分可以直接跳过
 
 4. 运行开发服务器：
 
