@@ -1,69 +1,56 @@
-# Basic Web3 Wallet Demo
+# Basic Wallet Demo
 
-This project is a basic demonstration of implementing wallet connection functionality using Next.js and popular Web3 libraries. It serves as a practice ground for using wagmi and rainbow-kit tools.
+这是一个使用 Next.js、wagmi 和 RainbowKit 构建的基础钱包连接演示项目。该项目旨在帮助开发者熟悉 Web3 钱包连接的基本概念和实现。
 
-## Tech Stack
+## 项目目的
 
-- Next.js
-- TypeScript
-- wagmi
-- RainbowKit
-- ethers.js (optional, for advanced operations)
-- Tailwind CSS (for styling)
+-   练习和熟悉 wagmi 库的使用
+-   学习如何集成 RainbowKit 进行钱包连接
+-   理解 Web3 应用中的基本概念和工作流程
 
-## Project Goals
+## 技术栈
 
-- Implement basic wallet connection
-- Display account information
-- Perform simple blockchain interactions
+-   Next.js
+-   TypeScript
+-   wagmi
+-   RainbowKit
+-   React Query
 
-## Implementation Roadmap
+## 快速开始
 
-1. Set up Next.js project with TypeScript
-2. Configure wagmi and RainbowKit
-3. Create a wallet connection component
-4. Display connected account information
-5. Implement network switching functionality
-6. Add basic transaction sending capability
-7. Implement error handling and loading states
-8. Style the interface using Tailwind CSS
+1. 克隆仓库：
 
-## Getting Started
+    ```
+    git clone https://github.com/your-username/basic-wallet-demo.git
+    cd basic-wallet-demo
+    ```
 
-1. Clone the repository
-2. Install dependencies: `pnpm install`
-3. Run the development server: `pnpm dev`
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
+2. 安装依赖：
 
-## Key Concepts to Explore
+    ```
+    pnpm install
+    ```
 
-- React hooks provided by wagmi
-- RainbowKit's customization options
-- Handling different network environments
-- Managing wallet states and user sessions
-- Interacting with smart contracts (basic level)
+3. 配置环境变量：
 
-## Best Practices
+    创建 `.env.local` 文件并添加以下内容：
 
-- Implement proper error handling
-- Use TypeScript for type safety
-- Follow Next.js best practices for routing and API routes
-- Ensure responsive design for various devices
+    ```
+    NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID=你的WalletConnect项目ID
+    ```
 
-## Future Enhancements
+    可以在 [WalletConnect Cloud](https://cloud.walletconnect.com/) 获取项目 ID。
 
-- Add more complex blockchain interactions
-- Implement token balance display
-- Create a simple DApp functionality (e.g., token transfer)
-- Explore advanced wagmi features
+4. 运行开发服务器：
 
-## Resources
+    ```
+    pnpm dev
+    ```
 
-- [wagmi Documentation](https://wagmi.sh/)
-- [RainbowKit Documentation](https://www.rainbowkit.com/docs/introduction)
-- [Next.js Documentation](https://nextjs.org/docs)
-- [Ethereum Developer Documentation](https://ethereum.org/en/developers/)
+5. 在浏览器中打开 [http://localhost:3000](http://localhost:3000)
 
-## Contributing
+## 主要功能
 
-This project is for learning purposes. Feel free to fork and extend it for your own learning journey.
+-   钱包连接：使用 RainbowKit 提供的 UI 组件连接各种以太坊钱包
+-   链切换：支持在多个以太坊网络之间切换
+-   账户信息显示：展示连接钱包的地址和余额
